@@ -12,6 +12,8 @@ Scenarios
     And I haven't got any value in field 'x', 
     Then I don't want those validators to run on element 'y'.
 
+And
+
     Given that I have set validators on element 'y', 
     When I submit the form, 
     And I have got any value in field 'x', 
